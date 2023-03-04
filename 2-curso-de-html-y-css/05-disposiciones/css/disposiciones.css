@@ -1,0 +1,18 @@
+.div-1, .div-2 {
+    background: teal;
+    /*Los div por defecto vienen con display block (ocupa todo el ancho)*/
+}
+.span-1 {
+    background-color: papayawhip;
+    /*Los div por defecto vienen con display inline (ocupa el ancho del contenido)*/
+    float: left;
+}
+.span-2 {
+    background-color: papayawhip;
+    /*Los div por defecto vienen con display inline (ocupa el ancho del contenido)*/
+    float: right;
+}
+
+.img {
+    background: darkblue;
+}
