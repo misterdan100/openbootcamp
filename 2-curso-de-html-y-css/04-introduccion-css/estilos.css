@@ -1,0 +1,9 @@
+h1 {
+    color: Teal;
+}
+li:first-child {
+    color:  red;
+}
+ul li:nth-child(1) {
+    font-size: 2rem;
+}
