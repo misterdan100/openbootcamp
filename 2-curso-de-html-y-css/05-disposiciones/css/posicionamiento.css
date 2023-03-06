@@ -1,0 +1,26 @@
+div {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+/*Posicionamiento relativo, se posiciona en relacion al
+posicionamiento original*/
+.relative {
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+
+/*Posicionamiento Fixed, se posiciona en relacion a viewport o la pantalla*/
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+/*Posicionamiento absolute, */
+.absolute {
+    position: absolute;
+    top: 0px;
+}
