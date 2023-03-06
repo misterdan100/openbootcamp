@@ -1,26 +1,44 @@
 div {
     border: 1px solid gray;
-    padding: 5px;
-    margin: 5px;
+    padding: 8px;
 }
 
-/*Posicionamiento relativo, se posiciona en relacion al
-posicionamiento original*/
+.static {
+    background: mediumturquoise;
+    width: 300px;
+}
+
 .relative {
     position: relative;
+    background: greenyellow;
+    width: 300px;
     left: 80px;
-    margin-left: 10px;
 }
 
-/*Posicionamiento Fixed, se posiciona en relacion a viewport o la pantalla*/
 .fixed {
+    background-color: aquamarine;
     position: fixed;
     bottom: 0px;
     right: 0px;
 }
 
-/*Posicionamiento absolute, */
+.padreabsolute {
+    position: relative;
+    background-color: gray;
+    width: 600px;
+    height: 600px;
+}
+
 .absolute {
+    background-color: cornflowerblue;
     position: absolute;
-    top: 0px;
+    bottom: 20px;
+    right: 80px;
+}
+
+.stiky {
+    background-color: darkkhaki;
+    position: sticky;
+    bottom: 20px;
+    z-index: 2;
 }
